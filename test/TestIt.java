@@ -42,4 +42,13 @@ public class TestIt {
 
     }
 
+    @Test
+    public void testpunkt2getY() throws Exception {
+
+        Punkt punkt2 = new Punkt(0, 4);
+
+        Assert.assertEquals(0, punkt2.getY(), 0);
+
+    }
+
 }
