@@ -15,4 +15,13 @@ public class TestIt {
 
     }
 
+    @Test
+    public void testpunkt1getX() throws Exception {
+
+        Punkt punkt1 = new Punkt(3, 0);
+
+        Assert.assertEquals(3, punkt1.getX(), 0);
+
+    }
+
 }
