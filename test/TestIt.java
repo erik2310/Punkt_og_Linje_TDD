@@ -24,4 +24,13 @@ public class TestIt {
 
     }
 
+    @Test
+    public void testpunkt1getY() throws Exception {
+
+        Punkt punkt1 = new Punkt(3, 0);
+
+        Assert.assertEquals(0, punkt1.getY(), 0);
+
+    }
+
 }
