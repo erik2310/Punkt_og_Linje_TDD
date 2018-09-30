@@ -33,4 +33,13 @@ public class TestIt {
 
     }
 
+    @Test
+    public void testpunkt2getX() throws Exception {
+
+        Punkt punkt2 = new Punkt(0, 4);
+
+        Assert.assertEquals(0, punkt2.getX(), 0);
+
+    }
+
 }
