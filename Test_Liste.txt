@@ -1,0 +1,9 @@
+Teste om længden mellem 2 punkter er 5.
+
+Teste om punkt1.getX() giver 3.
+
+Teste om punkt1.getY() giver 0.
+
+Teste om punkt2.getX() giver 0.
+
+Teste om punkt2.getY() giver 4.
