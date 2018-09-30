@@ -3,6 +3,7 @@ import org.junit.Test;
 
 public class TestIt {
 
+    // En test metode til at teste længden
     @Test
     public void testLength() throws Exception {
 
@@ -15,6 +16,7 @@ public class TestIt {
 
     }
 
+    // En test metode til at teste om punkt1 X bliver hentet rigtigt
     @Test
     public void testpunkt1getX() throws Exception {
 
@@ -24,6 +26,7 @@ public class TestIt {
 
     }
 
+    // En test metode til at teste om punkt1 Y bliver hentet rigtigt
     @Test
     public void testpunkt1getY() throws Exception {
 
@@ -33,6 +36,7 @@ public class TestIt {
 
     }
 
+    // En test metode til at teste om punkt2 X bliver hentet rigtigt
     @Test
     public void testpunkt2getX() throws Exception {
 
@@ -42,6 +46,7 @@ public class TestIt {
 
     }
 
+    // En test metode til at teste om punkt2 Y bliver hentet rigtigt
     @Test
     public void testpunkt2getY() throws Exception {
 
