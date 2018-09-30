@@ -47,7 +47,7 @@ public class TestIt {
 
         Punkt punkt2 = new Punkt(0, 4);
 
-        Assert.assertEquals(0, punkt2.getY(), 0);
+        Assert.assertEquals(4, punkt2.getY(), 0);
 
     }
 
